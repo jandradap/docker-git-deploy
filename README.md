@@ -113,7 +113,7 @@ To submit a patch:
 
 ## License
 
-This npm package is licensed under the MIT license.
+This app is licensed under the MIT license.
 
 ## Warranty
 
