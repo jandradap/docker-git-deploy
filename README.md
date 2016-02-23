@@ -1,10 +1,7 @@
-# Triggered Git Deployment Server
+# Triggered Git Deployment Server (Docker Container)
 
-[![npm](https://img.shields.io/npm/v/git-deploy.svg)](https://www.npmjs.com/package/git-deploy)
 [![GitHub license](https://img.shields.io/github/license/ourtownrentals/docker-git-deploy.svg)](./LICENSE.txt)
 [![David](https://img.shields.io/david/ourtownrentals/docker-git-deploy.svg)](https://david-dm.org/ourtownrentals/docker-git-deploy)
-[![David](https://img.shields.io/david/dev/ourtownrentals/docker-git-deploy.svg)](https://david-dm.org/ourtownrentals/docker-git-deploy#info=devDependencies)
-[![Travis](https://img.shields.io/travis/ourtownrentals/docker-git-deploy.svg)](https://travis-ci.org/ourtownrentals/docker-git-deploy)
 
 > <img src="https://makenew.github.io/makenew.svg" alt="Make New" height="20"> Built from [makenew/npm-package](https://github.com/makenew/npm-package).
 
@@ -12,20 +9,13 @@
 
 Local https server for triggered git deploys.
 
-## Installation
+## Usage
 
-The recommended method is to add this as a dependency
-to your project using [npm] with
+### Requirements
 
-```
-$ npm install --save git-deploy
-```
+- [Docker].
 
-Alternatively, you can download a [release][Releases]
-or clone the repository directly.
-
-[npm]: https://www.npmjs.com/
-[Releases]: https://github.com/ourtownrentals/docker-git-deploy/releases
+[Docker]: https://www.docker.com/
 
 ## Development and Testing
 
@@ -44,13 +34,33 @@ $ git clone https://github.com/ourtownrentals/docker-git-deploy.git
 
 You will need [Node.js] with [npm].
 
-Install the development dependencies with
+Install the dependencies with
 
 ```
 $ npm install
 ```
 
 [Node.js]: https://nodejs.org/
+[npm]: https://www.npmjs.com/
+
+### Testing
+
+#### Locally with Node.js
+
+Start the server with
+
+```
+$ npm start
+```
+
+#### Building and running the docker image
+
+Build and run the container with
+
+```
+$ docker build -t git-deploy .
+$ docker run -p 443:443 -v $(pwd)/test/private:/etc/ssl/private git-deploy
+```
 
 ## Contributing
 
