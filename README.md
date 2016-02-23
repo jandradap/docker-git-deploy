@@ -15,7 +15,17 @@ Local https server for triggered git deploys.
 
 - [Docker].
 
+The images are built and hosted automatically on Docker Hub
+at [ourtownrentals/git-deploy].
+
+Pull with
+
+```
+$ docker pull ourtownrentals/git-deploy
+```
+
 [Docker]: https://www.docker.com/
+[ourtownrentals/git-deploy]: https://hub.docker.com/r/ourtownrentals/git-deploy/
 
 ## Development and Testing
 
