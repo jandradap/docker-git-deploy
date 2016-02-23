@@ -68,9 +68,9 @@ $ git clone https://github.com/ourtownrentals/docker-git-deploy.git
 
 [git-deploy source]: https://github.com/ourtownrentals/docker-git-deploy
 
-### Testing
+### Testing Locally
 
-#### Locally with Node.js
+#### With Node.js
 
 You will need [Node.js] with [npm].
 
@@ -89,7 +89,7 @@ $ npm start
 [Node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
 
-#### Building and running the docker image
+#### With Docker
 
 Build and run the container with
 
