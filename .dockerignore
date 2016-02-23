@@ -1,0 +1,12 @@
+/.git
+/.dockerignore
+/.editorconfig
+/.gitignore
+/*.md
+/*.txt
+Dockerfile
+
+/node_modules
+/srv
+/test
+/*.log
