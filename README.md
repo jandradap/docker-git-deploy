@@ -1,4 +1,4 @@
-# Triggered Git Deployment Server (Docker Container)
+# Dockerized Triggered Git Deployment Server
 
 [![GitHub license](https://img.shields.io/github/license/ourtownrentals/docker-git-deploy.svg)](./LICENSE.txt)
 [![David](https://img.shields.io/david/ourtownrentals/docker-git-deploy.svg)](https://david-dm.org/ourtownrentals/docker-git-deploy)
