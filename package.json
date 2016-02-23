@@ -1,14 +1,14 @@
 {
-  "name": "makenew-npm-package",
-  "version": "1.0.1",
-  "description": "npm package skeleton.",
+  "name": "git-deploy",
+  "version": "0.1.0",
+  "description": "Local https server for triggered git deploys.",
   "main": "index.js",
   "keywords": [
     "node"
   ],
-  "homepage": "https://github.com/makenew/npm-package",
-  "bugs": "https://github.com/makenew/npm-package/issues",
-  "repository": "makenew/npm-package",
+  "homepage": "https://github.com/ourtownrentals/docker-git-deploy",
+  "bugs": "https://github.com/ourtownrentals/docker-git-deploy/issues",
+  "repository": "ourtownrentals/docker-git-deploy",
   "license": "MIT",
   "author": {
     "name": "Evan Sosenko",
