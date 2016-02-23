@@ -9,6 +9,11 @@
 
 Local https server for triggered git deploys.
 
+Runs an [Express] server that listen for git POST receive hooks
+and triggers deploys via Git fetch and reset.
+
+[Express]: http://expressjs.com/
+
 ## Usage
 
 ### Requirements
@@ -26,6 +31,29 @@ $ docker pull ourtownrentals/git-deploy
 
 [Docker]: https://www.docker.com/
 [ourtownrentals/git-deploy]: https://hub.docker.com/r/ourtownrentals/git-deploy/
+
+### Running in Production
+
+The container exposes the data volume `/srv` which hosts the deployed code.
+
+The following environment variables can be set to configure the deploy
+(defaults shown):
+
+- `DEPLOY_REPO=https://github.com/ourtownrentals/test-php-app.git`
+- `DEPLOY_BRANCH=master`
+
+The container expects a valid ssl certificate
+at `/etc/ssl/private/deploy.pem`
+and the corresponding key at `/etc/ssl/private/deploy.key`.
+
+The server listens on port 443, but since that port is generally reserved for
+the actual application, you should bind to a different port, e.g.,
+
+```
+$ docker run -p 8443:443 \
+  -v /etc/ssl/private/deploy:/etc/ssl/private \
+  git-deploy
+```
 
 ## Development and Testing
 
