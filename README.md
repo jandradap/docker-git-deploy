@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/ourtownrentals/docker-git-deploy.svg)](./LICENSE.txt)
 [![David](https://img.shields.io/david/ourtownrentals/docker-git-deploy.svg)](https://david-dm.org/ourtownrentals/docker-git-deploy)
 
-> <img src="https://makenew.github.io/makenew.svg" alt="Make New" height="20"> Built from [makenew/npm-package](https://github.com/makenew/npm-package).
+> Built from [makenew/npm-package](https://github.com/makenew/npm-package).
 
 ## Description
 
