@@ -15,6 +15,6 @@ COPY . /usr/src/app
 
 RUN npm install
 
-ENTRYPOINT ["/usr/src/app/bin/start.sh"]
+ENTRYPOINT ["/usr/src/app/docker-entrypoint.sh"]
 
 EXPOSE 443
