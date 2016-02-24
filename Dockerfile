@@ -5,9 +5,9 @@ ENV NODE_ENV production
 VOLUME /srv
 
 RUN mkdir -p \
-    /usr/src/app \
     /srv \
-    /etc/ssl/private
+    /etc/ssl/private \
+    /usr/src/app
 
 WORKDIR /usr/src/app
 
