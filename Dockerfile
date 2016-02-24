@@ -12,12 +12,7 @@ RUN mkdir -p \
 
 WORKDIR /usr/src/app
 
-COPY package.json \
-     npm-shrinkwrap.json \
-     index.js \
-     lib/server.js \
-     lib/deploy.js \
-     /usr/src/app/
+COPY . /usr/src/app
 
 RUN npm install
 

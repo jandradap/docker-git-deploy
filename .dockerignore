@@ -2,9 +2,7 @@
 /.dockerignore
 /.editorconfig
 /.gitignore
-/*.md
-/*.txt
-Dockerfile
+/Dockerfile
 
 /node_modules
 /srv
