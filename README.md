@@ -39,8 +39,13 @@ The container exposes the data volume `/srv` which hosts the deployed code.
 The following environment variables can be set to configure the deploy
 (defaults shown):
 
-- `DEPLOY_REPO=https://github.com/ourtownrentals/test-php-app.git`
-- `DEPLOY_BRANCH=master`
+- `DEPLOY_REPO`
+- `DEPLOY_BRANCH`
+
+If not set, the following defaults will be used:
+
+- Repo: `https://github.com/ourtownrentals/test-php-app.git`.
+- Branch: `master`.
 
 The container expects a valid ssl certificate
 at `/etc/ssl/private/deploy.crt`
