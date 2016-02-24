@@ -15,6 +15,6 @@ COPY . /usr/src/app
 
 RUN npm install
 
-CMD ["npm", "start"]
+ENTRYPOINT ["/usr/src/app/bin/start.sh"]
 
 EXPOSE 443
