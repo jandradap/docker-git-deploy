@@ -1,9 +1,8 @@
 FROM node:5.6.0
 
-EXPOSE 443
-VOLUME /srv
-
 ENV NODE_ENV production
+
+VOLUME /srv
 
 RUN mkdir -p \
     /usr/src/app \
@@ -17,3 +16,5 @@ COPY . /usr/src/app
 RUN npm install
 
 CMD ["npm", "start"]
+
+EXPOSE 443
