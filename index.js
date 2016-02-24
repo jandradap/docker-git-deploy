@@ -23,7 +23,7 @@ if (env === 'production') {
 server({
   env: env,
   port: port,
-  cert: fs.readFileSync(`${certpath}/deploy.pem`),
+  cert: fs.readFileSync(`${certpath}/deploy.crt`),
   key: fs.readFileSync(`${certpath}/deploy.key`),
   path: deploypath,
   repo: process.env.DEPLOY_REPO ||

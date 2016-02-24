@@ -43,7 +43,7 @@ The following environment variables can be set to configure the deploy
 - `DEPLOY_BRANCH=master`
 
 The container expects a valid ssl certificate
-at `/etc/ssl/private/deploy.pem`
+at `/etc/ssl/private/deploy.crt`
 and the corresponding key at `/etc/ssl/private/deploy.key`.
 
 The server listens on port 443, but since that port is generally reserved for
