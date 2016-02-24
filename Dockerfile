@@ -2,8 +2,6 @@ FROM node:5.7.0
 
 ENV NODE_ENV production
 
-VOLUME /srv
-
 RUN mkdir -p \
     /srv \
     /etc/ssl/private \
@@ -18,3 +16,5 @@ RUN npm install
 ENTRYPOINT ["/usr/src/app/docker-entrypoint.sh"]
 
 EXPOSE 443
+
+VOLUME /srv
