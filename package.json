@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Local https server for triggered git deploys.",
   "main": "index.js",
+  "private": true,
   "keywords": [
     "node"
   ],
