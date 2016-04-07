@@ -47,6 +47,10 @@ If not set, the following defaults will be used:
 - Repo: `https://github.com/ourtownrentals/test-php-app.git`.
 - Branch: `master`.
 
+For git repos over SSH, the container looks for the key files at
+`/root/.ssh/deploy` and `/root/.ssh/deploy.pub`
+and will use them if found.
+
 The container expects a valid ssl certificate
 at `/etc/ssl/private/deploy.crt`
 and the corresponding key at `/etc/ssl/private/deploy.key`.

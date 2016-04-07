@@ -5,6 +5,7 @@ ENV NODE_ENV production
 RUN mkdir -p \
     /srv \
     /etc/ssl/private \
+    /root/.ssh \
     /usr/src/app
 
 WORKDIR /usr/src/app
