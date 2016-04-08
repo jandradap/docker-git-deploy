@@ -7,4 +7,8 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+## 0.1.0 / 2016-04-07
+
+- Initial release.
+
 [Unreleased]: https://github.com/ourtownrentals/docker-git-deploy/compare/v0.1.0...HEAD
