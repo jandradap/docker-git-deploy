@@ -47,11 +47,6 @@
       "from": "bytes@2.2.0",
       "resolved": "https://registry.npmjs.org/bytes/-/bytes-2.2.0.tgz"
     },
-    "child-process-promise": {
-      "version": "2.0.1",
-      "from": "child-process-promise@latest",
-      "resolved": "https://registry.npmjs.org/child-process-promise/-/child-process-promise-2.0.1.tgz"
-    },
     "concat-map": {
       "version": "0.0.1",
       "from": "concat-map@0.0.1",
