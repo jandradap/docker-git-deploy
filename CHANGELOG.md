@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- Catch deploy errors at end of promise chain.
+
 ## 0.1.0 / 2016-04-07
 
 - Initial release.
