@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Added
+
+- Catch `SIGINT` so docker exits on Ctrl-C.
+
 ### Changed
 
 - Initial clone will work for non-empty destination path.
