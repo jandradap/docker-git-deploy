@@ -1,4 +1,4 @@
-FROM node:5.10.1
+FROM node:5.11.0
 
 ENV NODE_ENV production
 

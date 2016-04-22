@@ -13,6 +13,7 @@ This change log follows the conventions of
 
 ### Changed
 
+- Update to Node.js 5.11.0.
 - Initial clone will work for non-empty destination path.
 - Catch deploy errors at end of promise chain.
 
