@@ -2,11 +2,15 @@ FROM node:5.11.0
 
 ENV NODE_ENV production
 
+EXPOSE 443
+
 RUN mkdir -p \
     /srv \
     /etc/ssl/private \
     /root/.ssh \
     /usr/src/app
+
+VOLUME /srv
 
 WORKDIR /usr/src/app
 
@@ -21,7 +25,3 @@ COPY . /usr/src/app/
 ENTRYPOINT ["npm"]
 
 CMD ["start"]
-
-EXPOSE 443
-
-VOLUME /srv
