@@ -7,10 +7,6 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
-### Added
-
-- Catch `SIGINT` so docker exits on Ctrl-C.
-
 ### Changed
 
 - Update to Node.js 5.11.0.

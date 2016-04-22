@@ -16,10 +16,6 @@ if (env === 'production') {
   certpath = '/etc/ssl/private'
   keypath = '/root/.ssh'
   deploypath = '/srv'
-
-  process.on('SIGINT', () => {
-    process.exit()
-  })
 } else {
   port = 8443
   certpath = 'test/private'
