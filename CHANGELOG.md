@@ -12,6 +12,8 @@ This change log follows the conventions of
 - Update to Node.js 5.11.0.
 - Initial clone will work for non-empty destination path.
 - Catch deploy errors at end of promise chain.
+- Copy `package.json` and `npm-shrinkwrap.json` to container first
+  and run `npm install` separately to improve caching.
 
 ## 0.1.0 / 2016-04-07
 

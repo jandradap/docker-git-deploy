@@ -10,9 +10,13 @@ RUN mkdir -p \
 
 WORKDIR /usr/src/app
 
-COPY . /usr/src/app
+COPY package.json \
+     npm-shrinkwrap.json \
+     /usr/src/app
 
 RUN npm install
+
+COPY . /usr/src/app
 
 ENTRYPOINT ["npm"]
 
