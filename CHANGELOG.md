@@ -7,6 +7,8 @@ This change log follows the conventions of
 
 ## [Unreleased]
 
+## [0.3.0] / 2016-05-14
+
 - Update to Node 6.1.0.
 
 ## [0.2.0] / 2016-05-05
@@ -24,4 +26,5 @@ This change log follows the conventions of
 - Initial release.
 
 [Unreleased]: https://github.com/ourtownrentals/docker-git-deploy/compare/v0.2.0...HEAD
+[0.3.0]: https://github.com/ourtownrentals/docker-git-deploy/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/ourtownrentals/docker-git-deploy/compare/v0.1.0...v0.2.0
