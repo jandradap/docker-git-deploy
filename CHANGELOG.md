@@ -23,4 +23,5 @@ This change log follows the conventions of
 
 - Initial release.
 
-[Unreleased]: https://github.com/ourtownrentals/docker-git-deploy/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/ourtownrentals/docker-git-deploy/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/ourtownrentals/docker-git-deploy/compare/v0.1.0...v0.2.0
