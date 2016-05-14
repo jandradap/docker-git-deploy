@@ -7,6 +7,8 @@ This change log follows the conventions of
 
 ## [Unreleased]
 
+- Update to Node 6.1.0.
+
 ## [0.2.0] / 2016-05-05
 
 ### Changed
