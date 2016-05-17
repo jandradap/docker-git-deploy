@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased]
 
+### Fixed
+
+- Ensure correct reference is used in log message.
+
 ## [0.3.0] / 2016-05-14
 
 - Update to Node 6.1.0.
