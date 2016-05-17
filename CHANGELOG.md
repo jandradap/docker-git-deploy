@@ -13,6 +13,8 @@ This change log follows the conventions of
 
 ## [0.3.0] / 2016-05-14
 
+### Changed
+
 - Update to Node 6.1.0.
 
 ## [0.2.0] / 2016-05-05
