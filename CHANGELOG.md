@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased]
 
+### Changed
+
+- Put commit reference on same line as branch in deploy log.
+
 ### Fixed
 
 - Ensure correct reference is used in log message.
